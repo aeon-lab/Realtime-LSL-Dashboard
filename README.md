@@ -13,7 +13,7 @@ However, there are very few opensource and easy to use tools for realtime monito
 To address this, we developed this Realtime LSL Dashboard, a Python-based, interactive GUI for visualizing multiple LSL streams and channels in real-time. 
 This dashboard allows researchers to quickly verify stream integrity and monitor the data quality before or during recording sessions. To allow the users to test this dashboard, we have also provided the code for a dummy stream which includes standard signals.
 
-The dashboard was conceptualized by Dr. Nicoletta Fala (PI of AEON Lab). Md Mijanur Rahman (Graduate Student of AEON Lab) developed the dashboard. We also have future plans to improve the user interface and functionality of this dashboard and will update this repositoty as needed.
+The dashboard was conceptualized by Dr. Nicoletta Fala (PI of AEON Lab) and developed by Md Mijanur Rahman (Graduate Student of AEON Lab). We also have future plans to improve the user interface and functionality of this dashboard and will update this repositoty as needed.
 
 ## Dashboard Overview
 The video below shows the realtime dashboard which is currently displaying the "Dummy Stream".
