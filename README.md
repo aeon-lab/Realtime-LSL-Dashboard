@@ -14,9 +14,9 @@ To address this, we developed this Realtime LSL Dashboard, a Python-based, inter
 This dashboard allows researchers to quickly verify stream integrity and monitor the data quality before or during recording sessions. To allow the users to test this dashboard, we have also provided the code for a dummy stream which includes standard signals.
 
 ## Dashboard Overview
+The video below shows the realtime dashboard which is currently displaying the "Dummy Stream".
 
-The photo below shows the dashboard which is currently displaying the "Dummy Stream", code for which is provided in this repository.
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/fc738afe-8be2-47da-b231-26342d6a3974" />
+https://github.com/user-attachments/assets/bee008b8-275e-44bd-a37c-a61ab781b06e
 
 ## Features
 - **Automatic stream discovery:** Detect available LSL streams in real-time.
@@ -27,3 +27,10 @@ The photo below shows the dashboard which is currently displaying the "Dummy Str
 - **Error handling:** Detects missing or frozen streams and notifies the user.
 - **Branding support:** Includes placeholders for lab and university logos.
 
+## How to Run
+
+Download the .py file and run in your preferred python IDE. Pip install dependencies if needed.
+
+## Citation
+
+If you use this code for academic work, please cite our repository.
