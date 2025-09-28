@@ -11,14 +11,14 @@ Monitoring data quality in real-time is a critical for:
 However, there are very few opensource and easy to use tools for realtime monitoring of such multimodal datastreams.
 
 To address this, we developed this Realtime LSL Dashboard, a Python-based, interactive GUI for visualizing multiple LSL streams and channels in real-time. 
-This dashboard allows researchers to quickly verify stream integrity and monitor the data quality before or during recording sessions. To allow the users to test this dashboard, we have also provided the code for a dummy stream which includes standard signals.
+This dashboard allows researchers to quickly verify stream integrity and monitor the data quality before or during recording sessions. To allow the users to test this dashboard, we have also provided the code for a dummy stream which includes standard signals as well as a code for streaming mouse data for realtime data checking.
 
 The dashboard was conceptualized by Dr. Nicoletta Fala (PI of AEON Lab) and developed by Md Mijanur Rahman (Graduate Student of AEON Lab). We also have future plans to improve the user interface and functionality of this dashboard and will update this repositoty as needed.
 
 ## Dashboard Overview
-The video below shows the realtime dashboard which is currently displaying the "Dummy Stream".
+The video below shows the realtime dashboard and several streams.
 
-https://github.com/user-attachments/assets/bee008b8-275e-44bd-a37c-a61ab781b06e
+https://github.com/user-attachments/assets/bce1acd1-e2e9-40c9-be45-994506f37838
 
 ## Features
 - **Automatic stream discovery:** Detect available LSL streams in real-time.
@@ -32,6 +32,19 @@ https://github.com/user-attachments/assets/bee008b8-275e-44bd-a37c-a61ab781b06e
 ## How to Run
 
 Download the .py file and run in your preferred python IDE. Pip install dependencies if needed.
+
+## Changelog
+
+### v2
+- Fixed buffer issues for smoother data handling
+- Improved UI responsiveness and layout
+- Added fallback mechanisms for missing or delayed data
+- Enabled compatibility with Polar H10 sensor data
+- Introduced new script for streaming mouse data to assist with data quality checks
+
+### v1
+- Initial release of the dashboard interface
+- Implemented basic dummystream functionality for testing and prototyping
 
 ## Citation
 
