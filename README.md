@@ -31,8 +31,15 @@ https://github.com/user-attachments/assets/bce1acd1-e2e9-40c9-be45-994506f37838
 
 ## How to Run
 
-Download the .py file and run in your preferred python IDE. Pip install dependencies if needed.
+### Option 1: Standalone Executable (Recommended for End Users)
+**We now provide a standalone executable!** Download the latest release from our [Releases page](https://github.com/aeon-lab/Realtime-LSL-Dashboard/releases).
 
+1. Go to [Releases](https://github.com/aeon-lab/Realtime-LSL-Dashboard/releases)
+2. Download `Realtime_LSL_Dashboard.exe`
+3. Run the executable directly - no Python installation required!
+
+### Option 2: Python Script (For Developers)
+Download the .py files and run in your preferred Python IDE. Pip install dependencies if needed.
 ## Changelog
 
 ### v2
