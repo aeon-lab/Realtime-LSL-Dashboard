@@ -56,3 +56,12 @@ Download the .py files and run in your preferred Python IDE. Pip install depende
 ## Citation
 
 If you use this code for academic work, please cite our repository.
+```
+@software{aeon_lab_realtime_2025,
+  title = {Realtime-LSL-Dashboard},
+  url = {https://github.com/aeon-lab/Realtime-LSL-Dashboard},
+  author = {{Aeon Lab}},
+  date = {2024},
+  note = {Original-date: 2024-09-18}
+}
+```
